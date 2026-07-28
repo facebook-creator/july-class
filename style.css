@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.progress {
+  background-color: darkcyan;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress span {
+  position: relative;
+  font-size: large;
+  font-weight: bold;
+}
+
+.progress::before {
+  content: "";
+  background-color: beige;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.p0 {
+  background: conic-gradient(red 0%, #837b7b 0%);
+}
+.p10 {
+  background: conic-gradient(red 10%, #837b7b 10%);
+}
+.p20 {
+  background: conic-gradient(red 20%, #837b7b 20%);
+}
+.p30 {
+  background: conic-gradient(red 30%, #837b7b 30%);
+}
+.p40 {
+  background: conic-gradient(red 40%, #837b7b 40%);
+}
