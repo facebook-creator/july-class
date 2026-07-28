@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .progress {
+        background-color: darkcyan;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .progress span {
+        position: relative;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      .progress::before {
+        content: "";
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        position: absolute;
+        background-color: #fff;
+      }
+      .p75 {
+        background: conic-gradient(rgb(7, 1, 196) 75%, #986363 75%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="progress p75">
+      <span>75%</span>
+    </div>
+  </body>
+</html>
