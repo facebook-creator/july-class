@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+}
+
+.first {
+    width: 211px;
+    margin: 11px;
+    height: 211px;
+    overflow: hidden;
+    background-color: darkcyan;
+}
+
+.second {
+    width: 211px;
+    margin: 11px;
+    overflow: scroll;
+    height: 211px;
+    background-color: darkcyan;
+}
+
+.third {
+    margin: 11px;
+    width: 211px;
+    overflow-x: scroll;
+    height: 211px;
+    background-color: darkcyan;
+}
+
+.four {
+    width: 211px;
+    margin: 11px;
+    height: 211px;
+    overflow-y: scroll;
+    background-color: darkcyan;
+}
+
+.design {
+    background-color: darkgoldenrod;
+    width: 600px;
+    overflow: scroll;
+    height: 200px;
+}
+
+.five {
+    width: 811px;
+    margin: 11px;
+    height: 211px;
+    background-color: darkcyan;
+}
